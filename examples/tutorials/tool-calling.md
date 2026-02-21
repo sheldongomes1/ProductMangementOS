@@ -87,7 +87,7 @@ Add to your Claude Code MCP config:
       "command": "python",
       "args": ["core/mcp/server.py"],
       "env": {
-        "MANAGER_AI_BASE_DIR": "/path/to/your/personal-os"
+        "MANAGER_AI_BASE_DIR": "/path/to/your/product-os"
       }
     }
   }

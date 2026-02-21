@@ -47,7 +47,7 @@ After=network.target
 
 [Service]
 EnvironmentFile=%h/.slack-backlog-env
-ExecStart=/usr/bin/python3 %h/AIProjects/personal-os/.cursor/skills/slack-to-backlog/scripts/slack_bot.py
+ExecStart=/usr/bin/python3 %h/AIProjects/product-os/.cursor/skills/slack-to-backlog/scripts/slack_bot.py
 Restart=on-failure
 RestartSec=10
 
@@ -86,7 +86,7 @@ Without AI synthesis (raw capture):
 |---------|---------|---------|
 | `SLACK_BOT_TOKEN` | required | Bot User OAuth Token (`xoxb-...`) |
 | `SLACK_APP_TOKEN` | required | App-Level Token for Socket Mode (`xapp-...`) |
-| `PERSONAL_OS_PATH` | `~/AIProjects/personal-os` | Path to the PersonalOS repo |
+| `PERSONAL_OS_PATH` | `~/AIProjects/product-os` | Path to the PersonalOS repo |
 | `TRIGGER_EMOJI` | `brain` | Emoji that triggers capture (:brain:) |
 | `DISMISS_EMOJI` | `-1` | Emoji that dismisses (:-1:) |
 | `GOOGLE_API_KEY` | optional | Gemini API key for intelligent synthesis |

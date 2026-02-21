@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-orange)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![X](https://img.shields.io/badge/X-@__amankhan-blue?logo=x&logoColor=white)](https://x.com/_amankhan)
-[![Star this repo](https://img.shields.io/github/stars/amanaiproduct/personal-os?style=social)](https://github.com/amanaiproduct/personal-os)
+[![Star this repo](https://img.shields.io/github/stars/amanaiproduct/product-os?style=social)](https://github.com/amanaiproduct/product-os)
 
 Your AI-powered task management system that keeps you focused on what matters.
 
@@ -30,8 +30,8 @@ Brain dump into `BACKLOG.md`, tell your AI assistant to process it, and get orga
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/amanaiproduct/personal-os.git
-cd personal-os
+git clone https://github.com/amanaiproduct/product-os.git
+cd product-os
 ```
 
 ### 2. Run Setup (2 minutes)
@@ -79,7 +79,7 @@ The setup will:
 ## Directory Structure
 
 ```
-personal-os/
+product-os/
 ├── core/                    # Reusable system components (public)
 │   ├── evals/              # Session evaluations
 │   ├── mcp/                # MCP server implementation

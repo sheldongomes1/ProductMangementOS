@@ -64,7 +64,7 @@ Create `~/.slack-backlog-env` (or use your preferred method):
 ```bash
 export SLACK_BOT_TOKEN="xoxb-your-bot-token"
 export SLACK_APP_TOKEN="xapp-your-app-token"
-export PERSONAL_OS_PATH="$HOME/AIProjects/personal-os"
+export PERSONAL_OS_PATH="$HOME/AIProjects/product-os"
 export TRIGGER_EMOJI="brain"        # React with :brain: to capture
 export DISMISS_EMOJI="-1"           # React with :-1: to dismiss
 export GOOGLE_API_KEY="your-key"    # Optional: for AI synthesis

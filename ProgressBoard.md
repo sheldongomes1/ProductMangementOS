@@ -6,7 +6,7 @@ kanban-plugin: board
 
 ## Done
 
-- [x] [[personal-os-setup|Set Up PersonalOS for Google PM Mission]] @{2026-02-13} #P0
+- [x] [[product-os-setup|Set Up PersonalOS for Google PM Mission]] @{2026-02-13} #P0
 - [x] [[shipped-portfolio-v1|Ship 7 AI Mini-Products (V1 Portfolio)]] #P0
 
 ## In Progress

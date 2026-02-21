@@ -61,7 +61,7 @@ Add this to your project's `.mcp.json` file:
         "granola-mcp-server"
       ],
       "env": {
-        "KNOWLEDGE_PATH": "/absolute/path/to/your/personal-os/Knowledge"
+        "KNOWLEDGE_PATH": "/absolute/path/to/your/product-os/Knowledge"
       }
     }
   }

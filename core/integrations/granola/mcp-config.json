@@ -9,7 +9,7 @@
         "granola-mcp-server"
       ],
       "env": {
-        "KNOWLEDGE_PATH": "/path/to/personal-os/Knowledge"
+        "KNOWLEDGE_PATH": "/path/to/product-os/Knowledge"
       }
     }
   }

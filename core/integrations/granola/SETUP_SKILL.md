@@ -113,7 +113,7 @@ The config should be:
 
 Replace:
 - `<GRANOLA_MCP_PATH>` with absolute path to granola-ai-mcp-server
-- `<PERSONAL_OS_PATH>` with absolute path to personal-os workspace
+- `<PERSONAL_OS_PATH>` with absolute path to product-os workspace
 
 ### Step 7: Verify Setup
 

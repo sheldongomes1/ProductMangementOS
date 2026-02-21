@@ -26,7 +26,7 @@ You are managing a task management system optimized for product managers with in
 ## System Overview
 
 ```
-personal-os/
+product-os/
 ├── Tasks/                    # Active tasks directory
 │   ├── task1.md             # Individual task files with YAML frontmatter
 │   └── task2.md             # Named descriptively

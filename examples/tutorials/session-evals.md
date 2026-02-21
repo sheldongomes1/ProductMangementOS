@@ -112,7 +112,7 @@ Each eval is a markdown file with YAML frontmatter:
 ```yaml
 ---
 session_id: abc123
-project: personal-os
+project: product-os
 timestamp: 2025-01-15T10:30:00Z
 model: claude-opus-4-5-20251101
 message_count: 12

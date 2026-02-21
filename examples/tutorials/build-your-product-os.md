@@ -19,7 +19,7 @@ When you use your Personal OS daily, the bottlenecks become visceral. You'll int
 By the end of this guide, you'll have:
 
 ```
-personal-os/
+product-os/
 ├── AGENTS.md           # Your AI's instructions and personality
 ├── GOALS.md            # Your objectives and priorities
 ├── BACKLOG.md          # Quick capture inbox
@@ -52,8 +52,8 @@ No coding experience required. The AI does the coding.
 
 **Option A: Use this template**
 ```bash
-git clone https://github.com/amanaiproduct/personal-os.git
-cd personal-os
+git clone https://github.com/amanaiproduct/product-os.git
+cd product-os
 ./setup.sh
 ```
 
@@ -128,7 +128,7 @@ This is your inbox - dump anything here without organizing it.
 
 ### Step 5: Test It
 
-Open your AI coding agent in the personal-os folder and say:
+Open your AI coding agent in the product-os folder and say:
 
 > "Read AGENTS.md and process my backlog"
 
@@ -277,7 +277,7 @@ Your Personal OS can become a team system.
 
 ### Shared Repository
 
-Put your personal-os in a Git repo. Team members can:
+Put your product-os in a Git repo. Team members can:
 - Share the same AGENTS.md conventions
 - Contribute to Knowledge/
 - Use the same workflow files
@@ -381,4 +381,4 @@ After using your Personal OS daily, you'll develop intuition for how AI products
 
 ---
 
-*This guide is part of [PersonalOS](https://github.com/amanaiproduct/personal-os) - an open-source template for building your AI-powered productivity system.*
+*This guide is part of [PersonalOS](https://github.com/amanaiproduct/product-os) - an open-source template for building your AI-powered productivity system.*

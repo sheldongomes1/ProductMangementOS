@@ -18,7 +18,7 @@ Deep dives into how PersonalOS and AI agents work together.
 
 | Tutorial | Description |
 |----------|-------------|
-| [Build Your Personal OS](tutorials/build-your-personal-os.md) | **Start here** - Complete guide to building your system |
+| [Build Your Personal OS](tutorials/build-your-product-os.md) | **Start here** - Complete guide to building your system |
 | [Memory & Context](tutorials/memory.md) | How your agent remembers across sessions |
 | [Subagents](tutorials/subagents.md) | Parallel execution with multiple agents |
 | [Tool Calling & MCP](tutorials/tool-calling.md) | How agents take actions |

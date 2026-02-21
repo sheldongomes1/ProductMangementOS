@@ -10,7 +10,7 @@ Uses Socket Mode (no public URL required).
 Required env vars:
     SLACK_BOT_TOKEN       - Bot User OAuth Token (xoxb-...)
     SLACK_APP_TOKEN       - App-Level Token (xapp-...) for Socket Mode
-    PERSONAL_OS_PATH      - Path to personal-os repo (default: ~/AIProjects/personal-os)
+    PERSONAL_OS_PATH      - Path to product-os repo (default: ~/AIProjects/product-os)
     TRIGGER_EMOJI         - Emoji that triggers capture (default: brain)
     DISMISS_EMOJI         - Emoji that marks as dismissed (default: -1)
     GOOGLE_API_KEY        - Gemini API key for synthesis (optional, falls back to raw capture)
@@ -34,7 +34,7 @@ except ImportError:
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 logger = logging.getLogger("slack-to-backlog")
 
-PERSONAL_OS_PATH = Path(os.environ.get("PERSONAL_OS_PATH", "~/AIProjects/personal-os")).expanduser()
+PERSONAL_OS_PATH = Path(os.environ.get("PERSONAL_OS_PATH", "~/AIProjects/product-os")).expanduser()
 BACKLOG_PATH = PERSONAL_OS_PATH / "BACKLOG.md"
 TRIGGER_EMOJI = os.environ.get("TRIGGER_EMOJI", "brain")
 DISMISS_EMOJI = os.environ.get("DISMISS_EMOJI", "-1")

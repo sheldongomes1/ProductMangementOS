@@ -6,7 +6,7 @@ Deep dives into AI agent concepts and how they power PersonalOS.
 
 | Tutorial | What You'll Learn |
 |----------|-------------------|
-| [Build Your Personal OS](build-your-personal-os.md) | Complete guide to building your AI-powered productivity system |
+| [Build Your Personal OS](build-your-product-os.md) | Complete guide to building your AI-powered productivity system |
 | [Markdown & Structure](markdown-and-structure.md) | Why text and folders are the best database for AI |
 
 ## Core Concepts
